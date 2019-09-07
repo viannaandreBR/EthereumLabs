@@ -53,11 +53,12 @@ Setup Docusaurus.io with Git Hub Pages
 - git remote add origin https://github.com/viannaandreBR/EthereumLabs.git
 - git add .
 - git commit -m "First Commit"
+- git push origin master
 - Create Website branch in Git Hub
 - git checkout -b gh-pages
-- Relative Path website/build/Ethereum-Labs
-- git add -f website/build/Ethereum-Labs && git commit -m "initial dist subtree"
-- git subtree push --prefix website/build/Ethereum Labs/ origin gh-pages
+- Relative Path: website\build\ethereum-labs
+- git add -f website/build/ethereum-labs && git commit -m "initial dist subtree"
+- git subtree push --prefix website/build/ethereum-labs/ origin gh-pages
 
 
 

@@ -1,6 +1,7 @@
 ---
 id: doc2
-title: document number 2
+title: LAB#2 - Smart Contract with Solidity
+sidebar_label: Smart Contract with Solidity
 ---
 
 This is a link to [another document.](doc3.md)  

@@ -59,6 +59,12 @@ Setup Docusaurus.io with Git Hub Pages
 - Relative Path: website\build\ethereum-labs
 - git add -f website/build/ethereum-labs && git commit -m "initial dist subtree"
 - git subtree push --prefix website/build/ethereum-labs/ origin gh-pages
+- Atualizando o siteConfig.js
+- cd website
+- yarn run build
+- cd ..
+- git add -f website/build/ethereum-labs && git commit -m "Update 1...."
+- git subtree push --prefix website/build/ethereum-labs/ origin gh-pages
 
 
 

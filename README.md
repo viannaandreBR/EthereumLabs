@@ -83,7 +83,15 @@ git branch -D gh-pages
 # Para apagar o branch remotamente:
 git push <nome do origin> <nome do branch> --delete
 git push origin gh-pages --delete
--------------------
+-----------------------------------------------------------------------------
+# --------------
+# Compilação
+# --------------
+> cd website
+> yarn run build
+> cd ..
+> git add -f website/build/ethereum-labs && git commit -m "initial dist subtree"
+
 
 
 

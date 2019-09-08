@@ -1,0 +1,15 @@
+{
+  "docs": {
+    "Lab#1": ["doc1.1"],
+    "Lab#2": ["doc2.1"],
+    "Lab#3": ["doc3.1"],
+    "Lab#4": ["doc4.1"],
+    "Lab#5": ["doc5.1"],
+    "Lab#6": ["doc6.1"],
+    "Lab#7": ["doc7.1"],
+    "Lab#8": ["doc8.1"]    
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}

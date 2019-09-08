@@ -149,17 +149,55 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'What is Ethereum ?',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Lab #1',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Smart Contract with Solidity',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Lab #2',
           },
+          {
+            content: 'Advanced Smart Contracts',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Lab #3',
+          },
+          {
+            content: 'Building Interactive Front-Ends',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Lab #4',
+          },
+          {
+            content: 'Real Projects with Ethereum',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Lab #5',
+          },
+          {
+            content: 'Ethereum Project InfraStructure',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Lab #6',
+          },
+          {
+            content: 'Advanced Multi-Page Front Ends',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Lab #7',
+          },
+          {
+            content: 'Ethereum Integrated React Java Script',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Lab #8',
+          },
+          
+
         ]}
       </Block>
     );

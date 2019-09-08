@@ -22,9 +22,9 @@ const users = [
 
 const siteConfig = {
   title: 'Ethereum Labs', // Title for your website.
-  tagline: 'The Blockchain Ethereum Frameworkd for Developers',
-  url: 'https://viannaandrebr.github.io', // Your website URL
-  baseUrl: '/EthereumLabs/', // Base URL for your project */
+  tagline: 'The Blockchain Ethereum Framework',
+  url: 'http://www.ethereum-labs.tk', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -49,13 +49,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/Gumball_HD.png',
+  footerIcon: 'img/Gumball_HD.png',
+  favicon: 'img/Gumball_HD.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#684e90',
+    primaryColor: '#009975',
     secondaryColor: '#483664',
   },
 
@@ -74,7 +74,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Andre Vianna  by BioInformatica Labs`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

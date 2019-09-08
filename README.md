@@ -64,7 +64,7 @@ Setup Docusaurus.io with Git Hub Pages
 - yarn run build
 - cd ..
 - git add -f website/build/ethereum-labs && git commit -m "Update 1...."
-- git subtree push --prefix website/build/ethereum-labs/ origin gh-pages
+-   
 
 ---------------------------------------------------------------------------
  git for-each-ref --format %(refname) %(objectname) --sort -committerdate

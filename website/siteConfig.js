@@ -29,6 +29,7 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+  
   // Used for publishing and more
   projectName: 'ethereum-labs',
   organizationName: 'bioinformatica-labs',

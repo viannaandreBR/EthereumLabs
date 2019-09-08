@@ -64,20 +64,26 @@ Setup Docusaurus.io with Git Hub Pages
 - yarn run build
 - cd ..
 - git add -f website/build/ethereum-labs && git commit -m "Update 1...."
-<<<<<<< HEAD
 -   
 
 ---------------------------------------------------------------------------
  git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git checkout -q --track origin/master
-=======
-- git subtree push --prefix website/build/ethereum-labs/ origin gh-pages
-
->>>>>>> b7ef8b472db22082c32a94d95d07fc79966dfe59
+> git subtree push --prefix website/build/ethereum-labs/ origin gh-pages
 
 
+----------------------------------------------------------------------------
+# Como remover branchs
 
+# Para apagar o branch localmente:
+git branch -D <nome do branch>
+git branch -D gh-pages
+
+# Para apagar o branch remotamente:
+git push <nome do origin> <nome do branch> --delete
+git push origin gh-pages --delete
+-------------------
 
 
 

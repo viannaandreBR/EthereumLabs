@@ -1,7 +1,7 @@
 ---
-id: doc1.6
-title: LAB#1 - What is Ethereum ? / Interfacing with Ethereum Networks
-sidebar_label: Interfacing with Ethereum Networks
+id: doc1.14
+title: LAB#1 - What is Ethereum ? / Block Time
+sidebar_label: Block Time
 ---
 
-## Interfacing with Ethereum Networks
+## Block Time

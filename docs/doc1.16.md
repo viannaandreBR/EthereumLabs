@@ -1,7 +1,7 @@
 ---
-id: doc1.6
-title: LAB#1 - What is Ethereum ? / Interfacing with Ethereum Networks
-sidebar_label: Interfacing with Ethereum Networks
+id: doc1.16
+title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
+sidebar_label: The Solidity Programming Language
 ---
 
-## Interfacing with Ethereum Networks
+## The Solidity Programming Language

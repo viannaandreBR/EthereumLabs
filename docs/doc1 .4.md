@@ -9,3 +9,4 @@ sidebar_label: Original Bitcoin White Paper
 - https://bitcoin.org/bitcoin.pdf
 
 
+[Bitcoin White Paper](.\assets\bitcoin_paper.pdf)

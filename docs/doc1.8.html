@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>LAB#1 - What is Ethereum ? / Ethereum Accounts · Ethereum Labs</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Ethereum Accounts"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="LAB#1 - What is Ethereum ? / Ethereum Accounts · Ethereum Labs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://viannaandrebr.github.io/EthereumLabs/"/><meta property="og:description" content="## Ethereum Accounts"/><meta property="og:image" content="https://viannaandrebr.github.io/EthereumLabs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://viannaandrebr.github.io/EthereumLabs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/EthereumLabs/img/Gumball_HD.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://viannaandrebr.github.io/EthereumLabs/blog/atom.xml" title="Ethereum Labs Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://viannaandrebr.github.io/EthereumLabs/blog/feed.xml" title="Ethereum Labs Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/EthereumLabs/js/scrollSpy.js"></script><link rel="stylesheet" href="/EthereumLabs/css/main.css"/><script src="/EthereumLabs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/EthereumLabs/"><img class="logo" src="/EthereumLabs/img/Gumball_HD.png" alt="Ethereum Labs"/><h2 class="headerTitleWithLogo">Ethereum Labs</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/EthereumLabs/docs/doc1" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/EthereumLabs/docs/doc4" target="_self">API</a></li><li class=""><a href="/EthereumLabs/help" target="_self">Help</a></li><li class=""><a href="/EthereumLabs/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Lab#1</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#1</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1">What is Ethereum ?</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.1">Introduction</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.2">Code on GitHub</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.3">A Short History Lesson</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.4">Original Bitcoin White Paper</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.5">What is Ethereum ?</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.6">Interfacing with Ethereum Networks</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.7">Metamask Setup</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/EthereumLabs/docs/doc1.8">Ethereum Accounts</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.9">Receinving Ether</a></li><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc1.10">What is a Transaction ?</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#2</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc2">Smart Contract with Solidity</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#3</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc3">Advanced Smart Contracts</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#4</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc4">Building Interactive Front-Ends</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#5</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc5">Real Projects with Ethereum</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#6</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc6">Ethereum Project Infrastructure</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#7</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc7">Advanced Multi-Pages Front-Ends</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Lab#8</h3><ul class=""><li class="navListItem"><a class="navItem" href="/EthereumLabs/docs/doc8">React Java Script</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">LAB#1 - What is Ethereum ? / Ethereum Accounts</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="ethereum-accounts"></a><a href="#ethereum-accounts" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ethereum Accounts</h2>
+<h3><a class="anchor" aria-hidden="true" id="metamask-account"></a><a href="#metamask-account" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Metamask Account</h3>
+<h4><a class="anchor" aria-hidden="true" id="account-address"></a><a href="#account-address" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Account Address</h4>
+<pre><code class="hljs css language-sequence">M<span class="hljs-function"><span class="hljs-title">etamask</span>-&gt;</span>Address: <span class="hljs-number">0</span>x713A7F9057c070c3D6056A9e21F07f1762A08969
+M<span class="hljs-function"><span class="hljs-title">etamask</span>-&gt;</span>PublicKey:<span class="hljs-number">0</span>x0305637cbdb8c113b6c5bf6405c31ba777e0f080d1f32e2439ea27e22d7e2d15fa
+M<span class="hljs-function"><span class="hljs-title">etamask</span>-&gt;</span>PrivateKey:<span class="hljs-number">0</span>x0238580ba7dff04d4748017a8f002e91fe023e0d37329b3764845a07f6e2d299
+
+</code></pre>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="bip39"></a><a href="#bip39" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BIP39</h2>
+<p><a href="https://iancoleman.io/bip39/">https://iancoleman.io/bip39/</a></p>
+<p>BIP: 39
+Layer: Applications
+Title: Mnemonic code for generating deterministic keys
+Author: Marek Palatinus <a href="mailto:slush@satoshilabs.com">slush@satoshilabs.com</a>
+Pavol Rusnak <a href="mailto:stick@satoshilabs.com">stick@satoshilabs.com</a>
+Aaron Voisine <a href="mailto:voisine@gmail.com">voisine@gmail.com</a>
+Sean Bowe <a href="mailto:ewillbefull@gmail.com">ewillbefull@gmail.com</a>
+Comments-Summary: Unanimously Discourage for implementation
+Comments-URI: <a href="https://github.com/bitcoin/bips/wiki/Comments:BIP-0039">https://github.com/bitcoin/bips/wiki/Comments:BIP-0039</a>
+Status: Proposed
+Type: Standards Track
+Created: 2013-09-10
+Table of Contents
+Abstract
+Motivation
+Generating the mnemonic
+Wordlist
+From mnemonic to seed
+Wordlists
+Test vectors
+Reference Implementation
+Other Implementations
+Abstract
+This BIP describes the implementation of a mnemonic code or mnemonic sentence -- a group of easy to remember words -- for the generation of deterministic wallets.</p>
+<p>It consists of two parts: generating the mnemonic, and converting it into a binary seed. This seed can be later used to generate deterministic wallets using BIP-0032 or similar methods.</p>
+<p>Motivation
+A mnemonic code or sentence is superior for human interaction compared to the handling of raw binary or hexadecimal representations of a wallet seed. The sentence could be written on paper or spoken over the telephone.</p>
+<p>This guide is meant to be a way to transport computer-generated randomness with a human readable transcription. It's not a way to process user-created sentences (also known as brainwallets) into a wallet seed.</p>
+<p>Generating the mnemonic
+The mnemonic must encode entropy in a multiple of 32 bits. With more entropy security is improved but the sentence length increases. We refer to the initial entropy length as ENT. The allowed size of ENT is 128-256 bits.</p>
+<p>First, an initial entropy of ENT bits is generated. A checksum is generated by taking the first</p>
+<p>ENT / 32
+bits of its SHA256 hash. This checksum is appended to the end of the initial entropy. Next, these concatenated bits are split into groups of 11 bits, each encoding a number from 0-2047, serving as an index into a wordlist. Finally, we convert these numbers into words and use the joined words as a mnemonic sentence.
+The following table describes the relation between the initial entropy length (ENT), the checksum length (CS) and the length of the generated mnemonic sentence (MS) in words.</p>
+<p>CS = ENT / 32
+MS = (ENT + CS) / 11</p>
+<p>|  ENT  | CS | ENT+CS |  MS  |
++-------+----+--------+------+
+|  128  |  4 |   132  |  12  |
+|  160  |  5 |   165  |  15  |
+|  192  |  6 |   198  |  18  |
+|  224  |  7 |   231  |  21  |
+|  256  |  8 |   264  |  24  |
+Wordlist
+An ideal wordlist has the following characteristics:</p>
+<p>a) smart selection of words</p>
+<ul>
+<li><p>the wordlist is created in such way that it's enough to type the first four
+letters to unambiguously identify the word
+b) similar words avoided</p></li>
+<li><p>word pairs like &quot;build&quot; and &quot;built&quot;, &quot;woman&quot; and &quot;women&quot;, or &quot;quick&quot; and &quot;quickly&quot;
+not only make remembering the sentence difficult, but are also more error
+prone and more difficult to guess
+c) sorted wordlists</p></li>
+<li><p>the wordlist is sorted which allows for more efficient lookup of the code words
+(i.e. implementations can use binary search instead of linear search)</p></li>
+<li><p>this also allows trie (a prefix tree) to be used, e.g. for better compression
+The wordlist can contain native characters, but they must be encoded in UTF-8 using Normalization Form Compatibility Decomposition (NFKD).</p></li>
+</ul>
+<p>From mnemonic to seed
+A user may decide to protect their mnemonic with a passphrase. If a passphrase is not present, an empty string &quot;&quot; is used instead.</p>
+<p>To create a binary seed from the mnemonic, we use the PBKDF2 function with a mnemonic sentence (in UTF-8 NFKD) used as the password and the string &quot;mnemonic&quot; + passphrase (again in UTF-8 NFKD) used as the salt. The iteration count is set to 2048 and HMAC-SHA512 is used as the pseudo-random function. The length of the derived key is 512 bits (= 64 bytes).</p>
+<p>This seed can be later used to generate deterministic wallets using BIP-0032 or similar methods.</p>
+<p>The conversion of the mnemonic sentence to a binary seed is completely independent from generating the sentence. This results in rather simple code; there are no constraints on sentence structure and clients are free to implement their own wordlists or even whole sentence generators, allowing for flexibility in wordlists for typo detection or other purposes.</p>
+<p>Although using a mnemonic not generated by the algorithm described in &quot;Generating the mnemonic&quot; section is possible, this is not advised and software must compute a checksum for the mnemonic sentence using a wordlist and issue a warning if it is invalid.</p>
+<p>The described method also provides plausible deniability, because every passphrase generates a valid seed (and thus a deterministic wallet) but only the correct one will make the desired wallet available.</p>
+<p>Wordlists
+Moved to separate document
+Test vectors
+The test vectors include input entropy, mnemonic and seed. The passphrase &quot;TREZOR&quot; is used for all vectors.</p>
+<p><a href="https://github.com/trezor/python-mnemonic/blob/master/vectors.json">https://github.com/trezor/python-mnemonic/blob/master/vectors.json</a></p>
+<p>Also see <a href="https://github.com/bip32JP/bip32JP.github.io/blob/master/test_JP_BIP39.json">https://github.com/bip32JP/bip32JP.github.io/blob/master/test_JP_BIP39.json</a></p>
+<p>(Japanese wordlist test with heavily normalized symbols as passphrase)</p>
+<p>Reference Implementation
+Reference implementation including wordlists is available from</p>
+<p><a href="http://github.com/trezor/python-mnemonic">http://github.com/trezor/python-mnemonic</a></p>
+<p>Other Implementations
+Go:</p>
+<p><a href="https://github.com/tyler-smith/go-bip39">https://github.com/tyler-smith/go-bip39</a>
+Elixir:
+<a href="https://github.com/izelnakri/mnemonic">https://github.com/izelnakri/mnemonic</a>
+Objective-C:
+<a href="https://github.com/nybex/NYMnemonic">https://github.com/nybex/NYMnemonic</a>
+Haskell:
+<a href="https://github.com/haskoin/haskoin">https://github.com/haskoin/haskoin</a>
+.NET C# (PCL):
+<a href="https://github.com/Thashiznets/BIP39.NET">https://github.com/Thashiznets/BIP39.NET</a>
+.NET C# (PCL):
+<a href="https://github.com/NicolasDorier/NBitcoin">https://github.com/NicolasDorier/NBitcoin</a>
+JavaScript:
+<a href="https://github.com/bitpay/bitcore-mnemonic">https://github.com/bitpay/bitcore-mnemonic</a>
+<a href="https://github.com/bitcoinjs/bip39">https://github.com/bitcoinjs/bip39</a> (used by <a href="http://blockchain.info">blockchain.info</a>)
+Ruby:
+<a href="https://github.com/sreekanthgs/bip_mnemonic">https://github.com/sreekanthgs/bip_mnemonic</a>
+Rust:
+<a href="https://github.com/infincia/bip39-rs">https://github.com/infincia/bip39-rs</a>
+Swift:
+<a href="https://github.com/CikeQiu/CKMnemonic">https://github.com/CikeQiu/CKMnemonic</a>
+<a href="https://github.com/yuzushioh/WalletKit">https://github.com/yuzushioh/WalletKit</a>
+C++:
+<a href="https://github.com/libbitcoin/libbitcoin-system/blob/master/include/bitcoin/system/wallet/mnemonic.hpp">https://github.com/libbitcoin/libbitcoin-system/blob/master/include/bitcoin/system/wallet/mnemonic.hpp</a>
+C (with Python/Java/Javascript bindings):
+<a href="https://github.com/ElementsProject/libwa">https://github.com/ElementsProject/libwa</a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/EthereumLabs/docs/doc1.7"><span class="arrow-prev">← </span><span>Metamask Setup</span></a><a class="docs-next button" href="/EthereumLabs/docs/doc1.9"><span>Receinving Ether</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#ethereum-accounts">Ethereum Accounts</a><ul class="toc-headings"><li><a href="#metamask-account">Metamask Account</a></li></ul></li><li><a href="#bip39">BIP39</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/EthereumLabs/" class="nav-home"><img src="/EthereumLabs/img/Gumball_HD.png" alt="Ethereum Labs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/EthereumLabs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/EthereumLabs/docs/en/doc2.html">Guides (or other categories)</a><a href="/EthereumLabs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/EthereumLabs/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/EthereumLabs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/EthereumLabs/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Andre Vianna  by BioInformatica Labs</section></footer></div></body></html>

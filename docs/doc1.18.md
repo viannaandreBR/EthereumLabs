@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.18
+title: LAB#1 - What is Ethereum ? / Quick Note - Remix
+sidebar_label: Quick Note - Remix
 ---
 
-## The Solidity Programming Language
+## Quick Note - Remix
 
 
 

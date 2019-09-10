@@ -5,9 +5,12 @@ sidebar_label: Metamask Setup
 ---
 
 ## Metamask Setup
-- https://chrome.google.com/webstore/search/metamask
 - Metamask Account
 - 12 words mnemonics
+
+[![alt text](.\assets\Imagem7_1.png)](https://chrome.google.com/webstore/search/metamask)
+
+---
 
 ## Networks
 - Main Production Network - Public,  Production Network

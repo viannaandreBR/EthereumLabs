@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.20
+title: LAB#1 - What is Ethereum ? / Function Declarations
+sidebar_label: Function Declarations
 ---
 
-## The Solidity Programming Language
+## Function Declarations
 
 
 

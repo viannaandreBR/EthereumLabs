@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.21
+title: LAB#1 - What is Ethereum ? / Testing with REmix
+sidebar_label: Testing with REmix
 ---
 
-## The Solidity Programming Language
+## Testing with REmix
 
 
 

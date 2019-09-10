@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.27
+title: LAB#1 - What is Ethereum ? / Mnemonic Phrases
+sidebar_label: Mnemonic Phrases
 ---
 
-## The Solidity Programming Language
+## Mnemonic Phrases
 
 
 

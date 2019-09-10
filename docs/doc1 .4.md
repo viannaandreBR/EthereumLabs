@@ -6,7 +6,10 @@ sidebar_label: Original Bitcoin White Paper
 
 ## Original Bitcoin White Paper
 
-- https://bitcoin.org/bitcoin.pdf
-
-
 [Bitcoin White Paper](.\assets\bitcoin_paper.pdf)
+
+---
+
+## Original Ethereum Yelow Paper
+
+[Ethereum White Paper](.\assets\Ethereum_paper.pdf)

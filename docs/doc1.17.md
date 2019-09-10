@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.17
+title: LAB#1 - What is Ethereum ? / Our First Contract
+sidebar_label: Our First Contract
 ---
 
-## The Solidity Programming Language
+## Our First Contract
 
 
 

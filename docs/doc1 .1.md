@@ -6,17 +6,19 @@ sidebar_label: Introduction
 
 ## Introduction
 
+> Intro > What is Ethereum ?
 
+> App#1 > How do we interact with Ethereum ?
 
-| Intro              | App#1                              | App#2                                               | App#3                                  |
-| ------------------ | ---------------------------------- | --------------------------------------------------- | -------------------------------------- |
-| What is Ethereum ? | How do We interact with Ethereum ? | Tooling, Deployment, Testting of Apps with Ethereum | Building a multipage App with Ethereum |
+> App#2 > Tooling, Deploymetn, Testing of Apps with Ethereum 
+
+> App#3 > Building a multipage App with Ethereum
 
 
 
 ![alt text](.\assets\Imagem1_1.jpg)
 
-
+---
 
 ## Objectives
 

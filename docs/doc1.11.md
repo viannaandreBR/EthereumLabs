@@ -13,3 +13,6 @@ sidebar_label: Why'd we Wait ?
 
 ![alt text](.\assets\Imagem11_1.jpg)
 
+
+
+![alt text](.\assets\Imagem11_2.jpg)

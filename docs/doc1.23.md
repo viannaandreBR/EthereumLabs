@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.23
+title: LAB#1 - What is Ethereum ? / Behind the Scenes of Deployment
+sidebar_label: Behind the Scenes of Deployment
 ---
 
-## The Solidity Programming Language
+## Behind the Scenes of Deployment
 
 
 

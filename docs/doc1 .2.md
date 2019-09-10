@@ -6,5 +6,8 @@ sidebar_label: Code on GitHub
 
 ## Code on GitHub
 
-GitHub Repositories:
-https://github.com/viannaandreBR/EthereumLabs
+
+
+[![alt text](.\assets\Imagem2_1.png)](https://github.com/viannaandreBR/EthereumLabs)
+
+

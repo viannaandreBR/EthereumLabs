@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.19
+title: LAB#1 - What is Ethereum ? / Contract Structure
+sidebar_label: Contract Structure
 ---
 
-## The Solidity Programming Language
+## Contract Structure
 
 
 

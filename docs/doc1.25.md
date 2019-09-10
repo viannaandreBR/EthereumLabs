@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.25
+title: LAB#1 - What is Ethereum ? / Wei vs Ether
+sidebar_label: Wei vs Ether
 ---
 
-## The Solidity Programming Language
+## Wei vs Ether
 
 
 

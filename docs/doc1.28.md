@@ -1,10 +1,10 @@
 ---
-id: doc1.16
-title: LAB#1 - What is Ethereum ? / The Solidity Programming Language
-sidebar_label: The Solidity Programming Language
+id: doc1.28
+title: LAB#1 - What is Ethereum ? / Getting More Ether
+sidebar_label: Getting More Ether
 ---
 
-## The Solidity Programming Language
+## Getting More Ether
 
 
 

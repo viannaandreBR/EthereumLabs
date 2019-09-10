@@ -11,10 +11,10 @@ The next lecture gives an overview of mining with a blockchain.  This video was 
 Check out the next video, then we'll do some followup discussion on blockchains after it.
 
 ### Anders Brownworth Site
-https://anders.com/
+> https://anders.com/
 
 ### Blockchain Tools
-https://anders.com/blockchain/blockchain.html
+> https://anders.com/blockchain/blockchain.html
 
 ### Git Hub Source
-https://github.com/anders94/blockchain-demo
+> https://github.com/anders94/blockchain-demo

@@ -26,6 +26,8 @@ sidebar_label: What is a Transaction ?
 6. Backend server sent success message back to the browser
 7. Transaction OK!
 
+![alt text](.\assets\Imagem10_1.jpg)
+
 ### Transaction Parameters
 1. **nonce** - How many times the sender has sent a transaction
 2. **to** - Address of account this money is going to
@@ -34,3 +36,9 @@ sidebar_label: What is a Transaction ?
 5. **startGas/gasLimit** - Units of gas that this transaction can consume
 6. **v, r, s** - Cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender´s private key.   
 
+![alt text](.\assets\Imagem10_2.jpg)
+
+
+
+
+![alt text](.\assets\Imagem10_3.jpg)

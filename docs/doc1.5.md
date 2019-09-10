@@ -14,3 +14,6 @@ sidebar_label: What is Ethereum ?
 - Anyone can run a node
 - Each node can contain a full copy of the Blockchain
 - The Blockchain is a database that stores a record of every transaction that has over taken place
+
+
+![alt text](.\assets\Imagem5_1.jpg)

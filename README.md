@@ -102,6 +102,28 @@ git push origin gh-pages --delete
 
 
 
+------------------------------------------------------------------------------
+#
+# Automatica Build && Deploy
+>
+> Criação Aplicação React
+> create-react-app gh-pages-teste
+>
+> Compilação, Criação /build
+> yarn run build
+>
+>
+>>>> Instalação Pacote Yarn para Git Hub Pages
+>>>>
+>>>> cd website
+>>>> yarn add --dev gh-pages
+>>>> ./node_modules/.bin/gh-pages -d build
+>>>>
+>>>>
+>>>>  git add -f website/build/EthereumLabs && git commit -m "Branch gh-pages"
+- git subtree push --prefix website/build/EthereumLabs/ origin gh-pages 
+
+
 
 
 

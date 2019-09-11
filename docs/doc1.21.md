@@ -4,23 +4,74 @@ title: LAB#1 - What is Ethereum ? / Testing with REmix
 sidebar_label: Testing with REmix
 ---
 
-## Testing with REmix
+##  Remix Contract
+
+~~~
+pragma solidity ^0.4.17;
+
+contract Inbox {
+    string public message;
 
 
+function Inbox(string initialMessage) public {
+    message = initialMessage;
+}
 
-![alt text](.\assets\Imagem16_1.png)
+function setMessage(string newMessage) public {
+    message = newMessage;
+}
+
+function getMessage() public view returns(string) {
+    return message;
+}
+}
+~~~
+
 
 ---
 
+## Remix IDE Process 
 
-## Solidity Complier
-
-![alt text](.\assets\Imagem16_2.jpg)
+![alt text](.\assets\Imagem21_1.jpg)
 
 
 ---
 
-## ABI - Application Binary Interface
+## Remix Interface
 
-![alt text](.\assets\Imagem16_3.jpg)
+> Code Area
+
+> Console Area
+
+> Deployment Area
+  - Environment
+    - Java Script VM
+    - Inject Web3
+    - Web3 Provider
+  - Account
+  - Gas Limit
+  - Value
+    - wey
+    - gwey
+    - finney
+    - ether
+
+
+![alt text](.\assets\Imagem21_2.jpg)
+
+
+
+---
+
+## Public message, getMessage, setMessage
+
+![alt text](.\assets\Imagem21_3.jpg)
+
+
+
+---
+
+## Data Structure
+
+![alt text](.\assets\Imagem21_4.png )
 

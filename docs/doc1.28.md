@@ -4,23 +4,16 @@ title: LAB#1 - What is Ethereum ? / Getting More Ether
 sidebar_label: Getting More Ether
 ---
 
-## Getting More Ether
+## rinkeby-faucet.com
 
 
-
-![alt text](.\assets\Imagem16_1.png)
-
----
-
-
-## Solidity Complier
-
-![alt text](.\assets\Imagem16_2.jpg)
+![alt text](.\assets\Imagem28_1.jpg)
 
 
 ---
 
-## ABI - Application Binary Interface
+## faucet.rinkeby.io
 
-![alt text](.\assets\Imagem16_3.jpg)
 
+
+![alt text](.\assets\Imagem28_2.jpg)

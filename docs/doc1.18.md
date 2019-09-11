@@ -4,23 +4,10 @@ title: LAB#1 - What is Ethereum ? / Quick Note - Remix
 sidebar_label: Quick Note - Remix
 ---
 
-## Quick Note - Remix
+## Solidity Documentantion Release 0.5.12
 
 
 
-![alt text](.\assets\Imagem16_1.png)
+[![alt text](.\assets\Imagem18_1.png)](.\assets\solidity.pdf)
 
----
-
-
-## Solidity Complier
-
-![alt text](.\assets\Imagem16_2.jpg)
-
-
----
-
-## ABI - Application Binary Interface
-
-![alt text](.\assets\Imagem16_3.jpg)
 

@@ -8,19 +8,37 @@ sidebar_label: Contract Structure
 
 
 
-![alt text](.\assets\Imagem16_1.png)
+![alt text](.\assets\Imagem19_1.jpg)
 
 ---
 
 
 ## Solidity Complier
 
-![alt text](.\assets\Imagem16_2.jpg)
+![alt text](.\assets\Imagem19_2.jpg)
 
 
 ---
 
-## ABI - Application Binary Interface
+## Contract Like a Class with Methods
 
-![alt text](.\assets\Imagem16_3.jpg)
+> Class / Instances
 
+![alt text](.\assets\Imagem19_5.jpg)
+
+> Contract / Functions
+
+![alt text](.\assets\Imagem19_3.jpg)
+
+
+---
+## Functions
+
+> Common Functions Types
+
+![alt text](.\assets\Imagem19_4.jpg)
+
+
+> Public Functions
+
+![alt text](.\assets\Imagem19_6.jpg)

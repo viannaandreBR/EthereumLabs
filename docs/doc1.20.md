@@ -8,19 +8,13 @@ sidebar_label: Function Declarations
 
 
 
-![alt text](.\assets\Imagem16_1.png)
+![alt text](.\assets\Imagem20_1.jpg)
 
 ---
 
 
-## Solidity Complier
+## Functions Types
 
-![alt text](.\assets\Imagem16_2.jpg)
+![alt text](.\assets\Imagem20_2.jpg)
 
-
----
-
-## ABI - Application Binary Interface
-
-![alt text](.\assets\Imagem16_3.jpg)
 

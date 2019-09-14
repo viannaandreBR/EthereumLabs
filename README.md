@@ -128,5 +128,11 @@ git push origin gh-pages --delete
 
 
 
+---
+
+npm install --global --production windows-build-tools
+
+
+
 
 

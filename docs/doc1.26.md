@@ -1,7 +1,7 @@
 ---
 id: doc1.26
-title: LAB#1 - What is Ethereum ? / Gas and Transactions
-sidebar_label: Gas and Transactions
+title: LAB#1 - What is Ethereum ? / 26. Gas and Transactions
+sidebar_label: 26. Gas and Transactions
 ---
 
 ## Gas Costs

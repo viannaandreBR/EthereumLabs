@@ -1,7 +1,7 @@
 ---
 id: doc1.5
-title: LAB#1 - What is Ethereum ? / What is Ethereum ?
-sidebar_label: What is Ethereum ?
+title: LAB#1 - What is Ethereum ? / 5. What is Ethereum ?
+sidebar_label: 5. What is Ethereum ?
 ---
 
 ## What is Ethereum ?

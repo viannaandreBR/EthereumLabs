@@ -1,28 +1,28 @@
 ---
 id: doc2.43
-title: LAB#2 - Smart Contracts with Solidity  / Mocha Structure
-sidebar_label: Mocha Structure
+title: LAB#2 - Smart Contracts with Solidity  / 43. Mocha Structure
+sidebar_label: 43. Mocha Structure
 ---
 
-## Mocha Structure
+## Mocha Test Process
 
 
-![alt text](.\assets\Imagem37_1.jpg)
-
-
----
-
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_2.jpg)
+![alt text](.\assets\Imagem43_1.jpg)
 
 
 ---
 
-## faucet.rinkeby.io
+## Mocha Test Process II
 
 
 
-![alt text](.\assets\Imagem37_3.jpg)
+![alt text](.\assets\Imagem43_2.jpg)
+
+
+---
+
+## Create Contract
+
+
+
+![alt text](.\assets\Imagem43_3.jpg)

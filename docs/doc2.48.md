@@ -1,28 +1,40 @@
 ---
 id: doc2.48
-title: LAB#2 - Smart Contracts with Solidity  / Asserting Deployment
-sidebar_label: Asserting Deployment
+title: LAB#2 - Smart Contracts with Solidity  / 48. Asserting Deployment
+sidebar_label: 48. Asserting Deployment
 ---
 
 ## Asserting Deployment
 
 
-![alt text](.\assets\Imagem37_1.jpg)
+
+~~~
+
+const assert = require ('assert');
+const ganache = require('ganache-cli');
+const Web3 = require('web3');
+const web3 = new Web3 (ganache.provider());
+const { interface, bytecode } = require('../compile');
+
+let accounts;
+let inbox;
+
+beforeEach(async () => {
+  // Get a list of all accounts
+
+accounts = await web3.eth.getAccounts();
+
+inbox = await new web3.eth.Contract(JSON.parse(interface))
+  .deploy({data: bytecode, arguments: ['Hi there!!!']})
+  .send({from: accounts[0],gas:'1000000' })
+});
+
+describe('Inbox', ()=> {
+  it ('deploys a contract', ()=>{
+    assert.ok(inbox.options.address);
+  });
+});
 
 
----
 
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_2.jpg)
-
-
----
-
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_3.jpg)
+~~~

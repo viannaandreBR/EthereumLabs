@@ -1,7 +1,7 @@
 ---
 id: doc1.12
-title: LAB#1 - What is Ethereum ? / A Quick Note
-sidebar_label: A Quick Note
+title: LAB#1 - What is Ethereum ? / 12. A Quick Note
+sidebar_label: 12. A Quick Note
 ---
 
 ## A Quick Note

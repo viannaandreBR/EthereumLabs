@@ -1,7 +1,7 @@
 ---
 id: doc1.9
-title: LAB#1 - What is Ethereum ? / Receinving Ether
-sidebar_label: Receinving Ether
+title: LAB#1 - What is Ethereum ? / 9. Receinving Ether
+sidebar_label: 9. Receinving Ether
 ---
 
 ## Receinving Ether

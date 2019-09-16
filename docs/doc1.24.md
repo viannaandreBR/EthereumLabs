@@ -1,7 +1,7 @@
 ---
 id: doc1.24
-title: LAB#1 - What is Ethereum ? / More on Running Functions Than You Want to Know
-sidebar_label: More on Running Functions Than You Want to Know
+title: LAB#1 - What is Ethereum ? / 24. More on Running Functions Than You Want to Know
+sidebar_label: 24. More on Running Functions Than You Want to Know
 ---
 
 ## Functions Details

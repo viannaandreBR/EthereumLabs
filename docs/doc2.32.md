@@ -1,7 +1,7 @@
 ---
 id: doc2.32
-title: LAB#2 - Smart Contracts with Solidity  / Project File Walkthrough
-sidebar_label: Project File Walkthrough
+title: LAB#2 - Smart Contracts with Solidity  / 32. Project File Walkthrough
+sidebar_label: 32. Project File Walkthrough
 ---
 
 ## Contract Source

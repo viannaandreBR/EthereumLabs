@@ -9,4 +9,4 @@ const source = fs.readFileSync(inboxPath, 'utf8');
 console.log(solc.compile(source,1));
 
 
-module.exports = solc.compile(source,1).contracts[':inbox'];
+module.exports = solc.compile(source,1).contracts[':Inbox'];

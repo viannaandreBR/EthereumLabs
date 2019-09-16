@@ -1,7 +1,7 @@
 ---
 id: doc2.34
-title: LAB#2 - Smart Contracts with Solidity  / Solidity Error Mensage
-sidebar_label: Solidity Error Mensage
+title: LAB#2 - Smart Contracts with Solidity  / 34. Solidity Error Mensage
+sidebar_label: 34. Solidity Error Mensage
 ---
 
 ## Solidity Error Mensage

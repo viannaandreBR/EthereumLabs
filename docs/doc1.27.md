@@ -1,7 +1,7 @@
 ---
 id: doc1.27
-title: LAB#1 - What is Ethereum ? / Mnemonic Phrases
-sidebar_label: Mnemonic Phrases
+title: LAB#1 - What is Ethereum ? / 27. Mnemonic Phrases
+sidebar_label: 27. Mnemonic Phrases
 ---
 
 ## Mnemonic Phrases

@@ -1,7 +1,7 @@
 ---
 id: doc2.38
-title: LAB#2 - Smart Contracts with Solidity  /  Web3 Install Issues on Windows
-sidebar_label:  Web3 Install Issues on Windows
+title: LAB#2 - Smart Contracts with Solidity  / 38. Web3 Install Issues on Windows
+sidebar_label: 38. Web3 Install Issues on Windows
 ---
 
 ##  Web3.js

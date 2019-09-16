@@ -1,7 +1,7 @@
 ---
 id: doc1.14
-title: LAB#1 - What is Ethereum ? / Block Time
-sidebar_label: Block Time
+title: LAB#1 - What is Ethereum ? / 14. Block Time
+sidebar_label: 14. Block Time
 ---
 
 ## Block Time

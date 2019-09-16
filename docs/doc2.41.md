@@ -1,7 +1,7 @@
 ---
 id: doc2.41
-title: LAB#2 - Smart Contracts with Solidity  / Web3 Providers
-sidebar_label: Web3 Providers
+title: LAB#2 - Smart Contracts with Solidity  / 41. Web3 Providers
+sidebar_label: 41. Web3 Providers
 ---
 
 ## Web3 Providers

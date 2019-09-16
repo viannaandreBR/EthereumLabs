@@ -1,7 +1,7 @@
 ---
 id: doc1.23
-title: LAB#1 - What is Ethereum ? / Behind the Scenes of Deployment
-sidebar_label: Behind the Scenes of Deployment
+title: LAB#1 - What is Ethereum ? / 23. Behind the Scenes of Deployment
+sidebar_label: 23. Behind the Scenes of Deployment
 ---
 
 ## External to External Account Transaction

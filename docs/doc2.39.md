@@ -1,7 +1,7 @@
 ---
 id: doc2.39
-title: LAB#2 - Smart Contracts with Solidity  / Installing Modules
-sidebar_label: Installing Modules
+title: LAB#2 - Smart Contracts with Solidity  / 39. Installing Modules
+sidebar_label: 39. Installing Modules
 ---
 
 ## Installing Modules - Mocha, Ganache and Web3

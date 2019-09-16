@@ -1,7 +1,7 @@
 ---
 id: doc1.17
-title: LAB#1 - What is Ethereum ? / Our First Contract
-sidebar_label: Our First Contract
+title: LAB#1 - What is Ethereum ? / 17. Our First Contract
+sidebar_label: 17. Our First Contract
 ---
 
 ## Remix

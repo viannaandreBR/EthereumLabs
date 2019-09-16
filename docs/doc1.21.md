@@ -1,7 +1,7 @@
 ---
 id: doc1.21
-title: LAB#1 - What is Ethereum ? / Testing with REmix
-sidebar_label: Testing with REmix
+title: LAB#1 - What is Ethereum ? / 21. Testing with REmix
+sidebar_label: 21. Testing with REmix
 ---
 
 ##  Remix Contract

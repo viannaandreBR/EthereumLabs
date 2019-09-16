@@ -1,7 +1,7 @@
 ---
 id: doc1.25
-title: LAB#1 - What is Ethereum ? / Wei vs Ether
-sidebar_label: Wei vs Ether
+title: LAB#1 - What is Ethereum ? / 25. Wei vs Ether
+sidebar_label: 25. Wei vs Ether
 ---
 
 ## Ether

@@ -1,7 +1,7 @@
 ---
 id: doc1.11
-title: LAB#1 - What is Ethereum ? /   
-sidebar_label: Why'd we Wait ?
+title: LAB#1 - What is Ethereum ? / 11. Why'd we Wait ?    
+sidebar_label: 11. Why'd we Wait ?
 ---
 
 ## Why'd we Wait ?

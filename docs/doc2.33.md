@@ -1,7 +1,7 @@
 ---
 id: doc2.33
-title: LAB#2 - Smart Contracts with Solidity  / Syntax Highlights
-sidebar_label: Syntax Highlights
+title: LAB#2 - Smart Contracts with Solidity  / 33. Syntax Highlights
+sidebar_label: 33. Syntax Highlights
 ---
 
 ## Syntax Highlights

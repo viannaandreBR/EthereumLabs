@@ -1,7 +1,7 @@
 ---
 id: doc1.8
-title: LAB#1 - What is Ethereum ? / Ethereum Accounts
-sidebar_label: Ethereum Accounts
+title: LAB#1 - What is Ethereum ? / 8. Ethereum Accounts
+sidebar_label: 8. Ethereum Accounts
 ---
 
 ## Ethereum Accounts

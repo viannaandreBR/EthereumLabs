@@ -1,7 +1,7 @@
 ---
 id: doc2.30
-title: LAB#2 - Smart Contracts with Solidity  / Contract Deployment
-sidebar_label: Contract Deployment
+title: LAB#2 - Smart Contracts with Solidity  / 30. Contract Deployment
+sidebar_label: 30. Contract Deployment
 ---
 
 ## Truffle

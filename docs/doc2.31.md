@@ -1,7 +1,7 @@
 ---
 id: doc2.31
-title: LAB#2 - Smart Contracts with Solidity  / Boilerplate Requirements
-sidebar_label: Boilerplate Requirements
+title: LAB#2 - Smart Contracts with Solidity  / 31. Boilerplate Requirements
+sidebar_label: 31. Boilerplate Requirements
 ---
 
 ## Custom Node Project

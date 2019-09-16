@@ -1,7 +1,7 @@
 ---
 id: doc2.35
-title: LAB#2 - Smart Contracts with Solidity  / Compiling Solidity
-sidebar_label: Compiling Solidity
+title: LAB#2 - Smart Contracts with Solidity  / 35. Compiling Solidity
+sidebar_label: 35. Compiling Solidity
 ---
 
 ## Solidity Compiler

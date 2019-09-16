@@ -1,7 +1,7 @@
 ---
 id: doc1.13
-title: LAB#1 - What is Ethereum ? / Basic Blockchains
-sidebar_label: Basic Blockchains
+title: LAB#1 - What is Ethereum ? / 13. Basic Blockchains
+sidebar_label: 13. Basic Blockchains
 ---
 
 ## Basic Blockchains

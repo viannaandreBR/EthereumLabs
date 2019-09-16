@@ -1,7 +1,7 @@
 ---
 id: doc2.37
-title: LAB#2 - Smart Contracts with Solidity  / Testing Architecture
-sidebar_label: Testing Architecture
+title: LAB#2 - Smart Contracts with Solidity  / 37. Testing Architecture
+sidebar_label: 37. Testing Architecture
 ---
 
 ## Project Directory

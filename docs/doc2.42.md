@@ -1,7 +1,7 @@
 ---
 id: doc2.42
-title: LAB#2 - Smart Contracts with Solidity  / Testing with Mocha
-sidebar_label: Testing with Mocha
+title: LAB#2 - Smart Contracts with Solidity  / 42. Testing with Mocha
+sidebar_label: 42. Testing with Mocha
 ---
 
 ## Testing with Mocha

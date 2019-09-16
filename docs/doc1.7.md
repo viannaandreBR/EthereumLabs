@@ -1,7 +1,7 @@
 ---
 id: doc1.7
-title: LAB#1 - What is Ethereum ? / Metamask Setup
-sidebar_label: Metamask Setup
+title: LAB#1 - What is Ethereum ? / 7. Metamask Setup
+sidebar_label: 7. Metamask Setup
 ---
 
 ## Metamask Setup

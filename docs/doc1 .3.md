@@ -1,7 +1,7 @@
 ---
 id: doc1.3
-title: LAB#1 - What is Ethereum ? / A Short History Lesson
-sidebar_label: A Short History Lesson
+title: LAB#1 - What is Ethereum ? / 3. A Short History Lesson
+sidebar_label: 3. A Short History Lesson
 ---
 
 ## A Short History Lesson

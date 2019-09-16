@@ -1,7 +1,7 @@
 ---
 id: doc1.20
-title: LAB#1 - What is Ethereum ? / Function Declarations
-sidebar_label: Function Declarations
+title: LAB#1 - What is Ethereum ? / 20. Function Declarations
+sidebar_label: 20. Function Declarations
 ---
 
 ## Function Declarations

@@ -1,7 +1,7 @@
 ---
 id: doc1.22
-title: LAB#1 - What is Ethereum ? / Redeploying Contracts
-sidebar_label: Redeploying Contracts
+title: LAB#1 - What is Ethereum ? / 22. Redeploying Contracts
+sidebar_label: 22. Redeploying Contracts
 ---
 
 ## Deploying Contracts in Private Network

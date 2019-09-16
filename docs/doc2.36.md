@@ -1,7 +1,7 @@
 ---
 id: doc2.36
-title: LAB#2 - Smart Contracts with Solidity  / The Compile Script
-sidebar_label: The Compile Script
+title: LAB#2 - Smart Contracts with Solidity  / 36. The Compile Script
+sidebar_label: 36. The Compile Script
 ---
 
 ## compile.js

@@ -1,7 +1,7 @@
 ---
 id: doc1.15
-title: LAB#1 - What is Ethereum ? / Smart Contracts
-sidebar_label: Smart Contracts
+title: LAB#1 - What is Ethereum ? / 15. Smart Contracts
+sidebar_label: 15. Smart Contracts
 ---
 
 

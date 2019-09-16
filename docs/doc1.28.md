@@ -1,7 +1,7 @@
 ---
 id: doc1.28
-title: LAB#1 - What is Ethereum ? / Getting More Ether
-sidebar_label: Getting More Ether
+title: LAB#1 - What is Ethereum ? / 28. Getting More Ether
+sidebar_label: 28. Getting More Ether
 ---
 
 ## rinkeby-faucet.com

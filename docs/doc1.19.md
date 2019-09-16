@@ -1,7 +1,7 @@
 ---
 id: doc1.19
-title: LAB#1 - What is Ethereum ? / Contract Structure
-sidebar_label: Contract Structure
+title: LAB#1 - What is Ethereum ? / 19. Contract Structure
+sidebar_label: 19. Contract Structure
 ---
 
 ## Contract Structure

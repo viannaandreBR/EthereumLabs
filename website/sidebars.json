@@ -11,12 +11,16 @@
               "doc2.47","doc2.48","doc2.49","doc2.50","doc2.51","doc2.52",
               "doc2.53","doc2.54","doc2.55","doc2.56","doc2.57","doc2.58",
               "doc2.59"],
-    "Lab#3": ["doc3"],
-    "Lab#4": ["doc4"],
-    "Lab#5": ["doc5"],
-    "Lab#6": ["doc6"],
-    "Lab#7": ["doc7"],
-    "Lab#8": ["doc8"]
+    "Lab#3 - Advanced Smart Contracts": ["doc3.60","doc3.61","doc3.62","doc3.63",
+              "doc3.64","doc3.65","doc3.66","doc3.67","doc3.68","doc3.69",
+              "doc3.70","doc3.71","doc3.72","doc3.73","doc3.74","doc3.75",
+              "doc3.76","doc3.77","doc3.78","doc3.79","doc3.80","doc3.81",
+              "doc3.82","doc3.83","doc3.84","doc3.85","doc3.86","doc3.87"],
+    "Lab#4 - Building Interative Front-Ends": ["doc4"],
+    "Lab#5 - Real Projects with Ethreum": ["doc5"],
+    "Lab#6 - Ethereum Project Infrastructure": ["doc6"],
+    "Lab#7 - Advanced Multi-Page Front-Ends": ["doc7"],
+    "Lab#8 - Appendix Basic React": ["doc8"]
   },
   "docs-other": {
     "First Category": ["exampledoc4", "exampledoc5"]

@@ -5,35 +5,9 @@ sidebar_label: 57. Observing Deployment on Etherscan
 ---
 
 ## Observing Deployment on Etherscan
+## Etherscan Rinkeby
+
+> https://rinkeby.etherscan.io/tx/0x0e7b840a79b74393def20a93ce2d8c37fca1c4bbe8c279898203b42fdfa4f1b6
 
 
-![alt text](.\assets\Imagem52_1.svg)
-
-
-Why Infura?
-The Infura API suite provides instant access over HTTPS and WebSockets to the Ethereum and IPFS networks. Infrastructure for your Web 3.0 app has never been easier.
-
-
-![alt text](.\assets\Imagem52_1.png)
-
-
-
-![alt text](.\assets\Imagem52_1.jpg)
-
-
----
-
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_2.jpg)
-
-
----
-
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_3.jpg)
+![alt text](.\assets\Imagem56_2.jpg)

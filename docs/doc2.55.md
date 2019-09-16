@@ -7,33 +7,21 @@ sidebar_label: 55. Update Deploy Code
 ## Update Deploy Code
 
 
-![alt text](.\assets\Imagem52_1.svg)
+~~~
+Updated Deploy Code
+In the upcoming video lecture we will be writing our deploy.js script. Since many students are using different dependency versions, here are the result callbacks needed for each:
+
+truffle-hdwallet-provider version 0.0.3
+
+const result = await new web3.eth.Contract(JSON.parse(interface))
+    .deploy({ data: bytecode, arguments: ['Hi there!'] })
+    .send({ gas: '1000000', from: accounts[0] });
 
 
-Why Infura?
-The Infura API suite provides instant access over HTTPS and WebSockets to the Ethereum and IPFS networks. Infrastructure for your Web 3.0 app has never been easier.
+truffle-hdwallet-provider versions 0.0.4, 0.0.5 and 0.0.6
 
+const result = await new web3.eth.Contract(JSON.parse(interface))
+     .deploy({data: '0x' + bytecode, arguments: ['Hi there!']}) // add 0x bytecode
+     .send({from: accounts[0]}); // remove 'gas'
 
-![alt text](.\assets\Imagem52_1.png)
-
-
-
-![alt text](.\assets\Imagem52_1.jpg)
-
-
----
-
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_2.jpg)
-
-
----
-
-## faucet.rinkeby.io
-
-
-
-![alt text](.\assets\Imagem37_3.jpg)
+~~~

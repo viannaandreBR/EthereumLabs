@@ -1,46 +1,27 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.66
+title: LAB#3 - Advanced Smart Contracts / 66. Overview of Mappings and Structs
+sidebar_label: 66. Overview of Mappings and Structs
 ---
 
-## Project Review
+## Overview of Mappings and Structs
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+![alt text](.\assets\Imagem65_1.png)
 
----
+> Array - That contains a single type of element.
+    
+    > Fixed Array - Has unchanging length.
+    
+    > Dynamic Array - Can change in size over time.
 
-## compile.js
+> Mapping - Collection of key value pairs. Think of JavaScript objects, Ruby hashes, or Python dictionary. All keys must be of the same type, and all values must be of the same type.
 
-
-![alt text](.\assets\Imagem59_2.jpg)
-
-
----
-
-## deploy.js
+> Struct - Collection of Key value pairs, that can have different types.
 
 
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
+![alt text](.\assets\Imagem66_1.jpg)
 
 ---
 
 
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
-
-
----

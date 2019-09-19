@@ -10,4 +10,30 @@ sidebar_label: 18. Quick Note - Remix
 
 [![alt text](.\assets\Imagem18_1.png)](.\assets\solidity.pdf)
 
+---
+
+## Remix Structure
+
+> File Explorer
+
+> Editor
+
+> Console
+
+> Control Panel
+
+![alt text](.\assets\Imagem18_1.jfif)
+
+
+---
+
+## Contract in Memory
+
+
+![alt text](.\assets\Imagem18_1.jpg)
+
+
+---
+
+
 

@@ -1,46 +1,37 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.69
+title: LAB#3 - Advanced Smart Contracts / 69. Require Statements
+sidebar_label: 69. Require Statements
 ---
 
-## Project Review
+## msg.sender
 
 
-![alt text](.\assets\Imagem59_1.jpg)
-
----
-
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
-
+![alt text](.\assets\Imagem69_1.jpg)
 
 ---
 
-## deploy.js
+## Transfer Value
 
 
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
+![alt text](.\assets\Imagem69_2.jpg)
 
 
 ---
+
+## The Msg Global Variable
+
+
+![alt text](.\assets\Imagem69_3.jpg)
+
+---
+
+## Converter Ether / Wey
+
+> https://etherconverter.online/
+
+> 1 Ether = 1000000000000000000 Wey
+
+
+![alt text](.\assets\Imagem69_4.jpg)
+

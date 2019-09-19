@@ -1,5 +1,5 @@
 ---
-id: doc2.59
+id: doc3.84
 title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
 sidebar_label: 59. Project Review
 ---

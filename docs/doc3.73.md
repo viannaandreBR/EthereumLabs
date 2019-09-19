@@ -1,46 +1,42 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.73
+title: LAB#3 - Advanced Smart Contracts / 73. Sending Ether from Contracts
+sidebar_label: 73. Sending Ether from Contracts
 ---
 
-## Project Review
+## Sending Ether from Contracts
+
+~~~
+
+pragma solidity ^0.4.17;
+
+contract Lottery {
+    address     public      manager;
+    address[]   public      players;
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+    function Lottery() public {
+        manager = msg.sender;
+    }
 
----
-
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
-
-
----
-
-## deploy.js
+    function enter() public payable {
+        require(msg.value > .01 ether);
+        players.push(msg.sender);
+    }
 
 
-![alt text](.\assets\Imagem59_3.jpg)
+    function random() public view returns(uint){
+        
+     return    uint(keccak256(block.difficulty,now,players));
+    }
+    
+    function pickWinner() public{
+         uint index = random() % players.length;
+         players[index].transfer(this.balance);
+    }
+    
+    
 
----
+}
 
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
-
-
----
+~~~

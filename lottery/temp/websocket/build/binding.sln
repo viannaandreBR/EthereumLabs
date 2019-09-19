@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bufferutil", "bufferutil.vcxproj", "{2D55ABA1-CD7C-816A-A69A-08B0075C52E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "validation", "validation.vcxproj", "{207D2113-0924-B6B1-F5A4-58908A785758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{207D2113-0924-B6B1-F5A4-58908A785758}.Debug|x64.ActiveCfg = Debug|x64
+		{207D2113-0924-B6B1-F5A4-58908A785758}.Debug|x64.Build.0 = Debug|x64
+		{207D2113-0924-B6B1-F5A4-58908A785758}.Release|x64.ActiveCfg = Release|x64
+		{207D2113-0924-B6B1-F5A4-58908A785758}.Release|x64.Build.0 = Release|x64
+		{2D55ABA1-CD7C-816A-A69A-08B0075C52E9}.Debug|x64.ActiveCfg = Debug|x64
+		{2D55ABA1-CD7C-816A-A69A-08B0075C52E9}.Debug|x64.Build.0 = Debug|x64
+		{2D55ABA1-CD7C-816A-A69A-08B0075C52E9}.Release|x64.ActiveCfg = Release|x64
+		{2D55ABA1-CD7C-816A-A69A-08B0075C52E9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

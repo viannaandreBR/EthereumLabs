@@ -7,40 +7,31 @@ sidebar_label: 63. Starting the Lottery Contract
 ## Starting the Lottery Contract
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+![alt text](.\assets\Imagem63_1.jpg)
 
 ---
 
-## compile.js
+## Lottery Contract in Remix
 
 
-![alt text](.\assets\Imagem59_2.jpg)
-
-
----
-
-## deploy.js
-
-
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
+![alt text](.\assets\Imagem63_3.jpg)
 
 
 ---
+
+## Source Lottery Contract in Remix
+
+
+~~~
+pragma solidity ^0.4.17;
+
+contract Lottery {
+    address public manager;
+    
+    function Lottery() public {
+        
+    }
+}
+
+~~~
+

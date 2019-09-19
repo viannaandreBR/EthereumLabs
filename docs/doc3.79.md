@@ -1,46 +1,16 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.79
+title: LAB#3 - Advanced Smart Contracts / 79. New Test Setup
+sidebar_label: 79. New Test Setup
 ---
 
-## Project Review
+##  New Test Setup
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+> Duplicate /inbox
 
----
+> Rename /lottery
 
-## compile.js
+> Delete /lotterry/contracts/inbox.sol
 
-
-![alt text](.\assets\Imagem59_2.jpg)
-
-
----
-
-## deploy.js
-
-
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
-
-
----
+> Create /lottery/contracts/lottery.sol

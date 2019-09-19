@@ -1,14 +1,17 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.74
+title: LAB#3 - Advanced Smart Contracts / 74. Resetting Contract State
+sidebar_label: 74. Resetting Contract State
 ---
 
-## Project Review
+## Resetting Contract State
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+![alt text](.\assets\Imagem74_1.jpg)
 
+
+
+![alt text](.\assets\Imagem74_2.jpg)
 ---
 
 ## compile.js

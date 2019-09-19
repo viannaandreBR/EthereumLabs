@@ -4,43 +4,40 @@ title: LAB#3 - Advanced Smart Contracts  / 60. The Lottery Contract
 sidebar_label: 60. The Lottery Contract
 ---
 
-## The Lottery Contract
+## Prize Pool
 
 
-![alt text](.\assets\Imagem59_1.jpg)
-
----
-
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
-
+![alt text](.\assets\Imagem60_2.jpg)
 
 ---
 
-## deploy.js
+## Lottery Contract with Prize Pool and Players
 
 
-![alt text](.\assets\Imagem59_3.jpg)
+![alt text](.\assets\Imagem60_1.jpg)
+
 
 ---
 
-## package.json
+## Bets
+
+
+![alt text](.\assets\Imagem60_3.jpg)
+
+---
+
+## Pick a Winner
 
 
 
-![alt text](.\assets\Imagem59_4.jpg)
+![alt text](.\assets\Imagem60_4.jpg)
 
 ---
 
 
-## inbox.test.js
+## Premium
 
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
+![alt text](.\assets\Imagem60_5.jpg)
 
 
 ---

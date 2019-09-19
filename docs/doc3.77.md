@@ -1,46 +1,58 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.77
+title: LAB#3 - Advanced Smart Contracts / 77. Returning Players Array
+sidebar_label: 77. Returning Players Array
 ---
 
-## Project Review
+## Returning Players Array
 
 
-![alt text](.\assets\Imagem59_1.jpg)
-
----
-
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
+>
+    function getPlayers() public view returns (address[]) {
+        return players;
+    }
 
 
----
+~~~
 
-## deploy.js
+pragma solidity ^0.4.17;
 
-
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
+contract Lottery {
+    address     public      manager;
+    address[]   public      players;
 
 
+    function Lottery() public {
+        manager = msg.sender;
+    }
 
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
+    function enter() public payable {
+        require(msg.value > .01 ether);
+        players.push(msg.sender);
+    }
 
 
----
+    function random() public view returns(uint){
+        
+     return    uint(keccak256(block.difficulty,now,players));
+    }
+    
+    function pickWinner() public restricted {
+         require(msg.sender == manager);
+         uint index = random() % players.length;
+         players[index].transfer(this.balance);
+         players = new address[](0);
+    }
+    
+    modifier restricted() {
+        require(msg.sender == manager);
+        _;
+    }
+ 
+    function getPlayers() public view returns (address[]) {
+        return players;
+    }   
+    
+}
+
+~~~

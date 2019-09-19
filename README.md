@@ -120,6 +120,7 @@ git push origin gh-pages --delete
 >>>> ./node_modules/.bin/gh-pages -d build
 >>>>
 >>>>
+yarn run build
 git add -f website/build/EthereumLabs && git commit -m "Branch gh-pages"
 
 git subtree push --prefix website/build/EthereumLabs/ origin gh-pages 

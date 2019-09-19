@@ -1,46 +1,24 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.78
+title: LAB#3 - Advanced Smart Contracts / 78. Contract Review
+sidebar_label: 78. Contract Review
 ---
 
-## Project Review
+## Contract Review
+
+> Environment:
+
+    >> JavaScript VM, Inject Web3, Web3 Provider
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+> Gas Limit
 
----
+> Value:
 
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
+    >> ether, wei, gwey, finney
 
 
----
+> Public:
 
-## deploy.js
+    >> enter, pickWinner, getPlayers, manager, players, random
 
-
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
-
-
----

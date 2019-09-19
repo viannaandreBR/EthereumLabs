@@ -7,40 +7,37 @@ sidebar_label: 62. Basic Solidity Types
 ## Basic Solidity Types
 
 
-![alt text](.\assets\Imagem59_1.jpg)
+![alt text](.\assets\Imagem18_1.png)
 
 ---
 
-## compile.js
+## Remix
 
 
-![alt text](.\assets\Imagem59_2.jpg)
+![alt text](.\assets\Imagem62_1.jpg)
 
 
 ---
 
-## deploy.js
+## Basic Types
 
 
-![alt text](.\assets\Imagem59_3.jpg)
-
----
-
-## package.json
-
-
-
-![alt text](.\assets\Imagem59_4.jpg)
+![alt text](.\assets\Imagem62_3.jpg)
 
 ---
 
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
+## Int Type
 
 
-![alt text](.\assets\Imagem59_6.jpg)
+
+![alt text](.\assets\Imagem62_4.jpg)
+
+---
+
+
+## Unsigned Integer Type
+
+![alt text](.\assets\Imagem62_5.jpg)
 
 
 ---

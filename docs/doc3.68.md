@@ -1,46 +1,50 @@
 ---
-id: doc2.59
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+id: doc3.68
+title: LAB#3 - Advanced Smart Contracts / 68. Entering the Lottery
+sidebar_label: 68. Entering the Lottery
 ---
 
-## Project Review
+## Entering the Lottery
 
 
-![alt text](.\assets\Imagem59_1.jpg)
-
----
-
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
-
+![alt text](.\assets\Imagem68_1.jpg)
 
 ---
 
-## deploy.js
+## Source Code lottery.sol
+
+~~~
+
+pragma solidity ^0.4.17;
+
+contract Lottery {
+    address     public      manager;
+    address[]   public      players;
 
 
-![alt text](.\assets\Imagem59_3.jpg)
+    function Lottery() public {
+        manager = msg.sender;
+    }
+
+    function enter() public payable {
+        players.push(msg.sender);
+    }
+
+
+
+}
+
+
+~~~
+
+
+
 
 ---
 
-## package.json
+## Remix with Source Code lottery.sol
 
 
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
-
+![alt text](.\assets\Imagem68_2.jpg)
 
 ---

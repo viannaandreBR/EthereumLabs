@@ -6,6 +6,10 @@ sidebar_label: 76. Functions Modifiers
 
 ## Functions Modifiers
 
+
+![alt text](.\assets\Imagem76_1.jpg)
+
+
 > modifier restricted()
 
 ~~~

@@ -1,46 +1,52 @@
 ---
 id: doc3.82
-title: LAB#2 - Smart Contracts with Solidity  / 59. Project Review
-sidebar_label: 59. Project Review
+title: LAB#3 - Advanced Smart Contracts   / 82. Asserting Deployment
+sidebar_label: 82. Asserting Deployment
 ---
 
-## Project Review
+## Asserting Deployment
 
 
-![alt text](.\assets\Imagem59_1.jpg)
-
----
-
-## compile.js
-
-
-![alt text](.\assets\Imagem59_2.jpg)
-
+![alt text](.\assets\Imagem82_1.jfif)
 
 ---
 
-## deploy.js
+## Describe Lottery Contract
 
+> describe('Lottery Contract', () => 
 
-![alt text](.\assets\Imagem59_3.jpg)
+> lottery.test.js
+
+~~~
+
+const assert = require('assert');
+const ganache = require('ganach-cli');
+const Web3 = require('web3');
+const web3 = new Web3(ganache.provider());
+
+const { interface, bytecode } = require('../compile');
+
+let lottery;
+let accounts;
+
+beforeEach(async ()=> {
+  accounts = await web3.eth.getAccounts();
+
+  lottery = await new web3.eth.Contract(JSON.parse(interface))
+    .deploy({ data: bytecode })
+    .send({ from: accounts[0], gas: '1000000'})
+})
+
+describe('Lottery Contract', () => {
+  it('deploys a contract', ()=> {
+    assert.ok(lottery.options.address);
+  });
+});
+
+~~~
 
 ---
 
-## package.json
+## Execute Test
 
-
-
-![alt text](.\assets\Imagem59_4.jpg)
-
----
-
-
-## inbox.test.js
-
-![alt text](.\assets\Imagem59_5.jpg)
-
-
-![alt text](.\assets\Imagem59_6.jpg)
-
-
----
+> npm run test

@@ -1,7 +1,11 @@
 ---
-id: doc4.88
-title: LAB#4 - Building Interactive Front-Ends  / 88. Ethereum App Architecture
-sidebar_label: 88. Ethereum App Architecture
+id: doc4.92
+title: LAB#4 - Building Interactive Front-Ends  / 92. Multiple Web3 Instances
+sidebar_label: 92. Multiple Web3 Instances
 ---
 
-## Ethereum App Architecture
+## Multiple Web3 Instances
+
+
+
+![alt text](.\assets\Imagem67_1.jpg)

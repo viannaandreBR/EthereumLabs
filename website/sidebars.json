@@ -16,11 +16,22 @@
               "doc3.70","doc3.71","doc3.72","doc3.73","doc3.74","doc3.75",
               "doc3.76","doc3.77","doc3.78","doc3.79","doc3.80","doc3.81",
               "doc3.82","doc3.83","doc3.84","doc3.85","doc3.86","doc3.87"],
-    "Lab#4 - Building Interative Front-Ends": ["doc4"],
+    "Lab#4 - Building Interative Front-Ends": ["doc4.88","doc4.89","doc4.90",
+              "doc4.91","doc4.92","doc4.93","doc4.94","doc4.95","doc4.96",
+              "doc4.97","doc4.98","doc4.99","doc4.100","doc4.101","doc4.102",
+              "doc4.103"],
     "Lab#5 - Real Projects with Ethreum": ["doc5"],
     "Lab#6 - Ethereum Project Infrastructure": ["doc6"],
     "Lab#7 - Advanced Multi-Page Front-Ends": ["doc7"],
     "Lab#8 - Appendix Basic React": ["doc8"]
+  },
+  "doc-react": {
+    "React": ["doc-react1", "doc-react2", "doc-react3", "doc-react4", 
+              "doc-react5", "doc-react6", "doc-react7", "doc-react8",
+              "doc-react9","doc-react10","doc-react11","doc-react12",
+              "doc-react13","doc-react14","doc-react15","doc-react16",
+              "doc-react17","doc-react18","doc-react19","doc-react20",
+              "doc-react21","doc-react22","doc-react23","doc-react24"]
   },
   "docs-other": {
     "First Category": ["exampledoc4", "exampledoc5"]

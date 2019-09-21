@@ -1,7 +1,7 @@
 ---
-id: doc4.88
-title: LAB#4 - Building Interactive Front-Ends  / 88. Ethereum App Architecture
-sidebar_label: 88. Ethereum App Architecture
+id: doc4.90
+title: LAB#4 - Building Interactive Front-Ends  / 90. Getting Started with 
+sidebar_label: 90. Getting Started with Create-React-App
 ---
 
-## Ethereum App Architecture
+## Getting Started with Create-React-App

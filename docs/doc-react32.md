@@ -1,7 +1,7 @@
 ---
-id: doc-react24
-title: LAB#1 - React JS / 24. List Item Keys
-sidebar_label: 24. List Item Keys
+id: doc-react32
+title: LAB#1 - React JS / 32. React Wrapup
+sidebar_label: 32. React Wrapup
 ---
 
 ## List Item Keys

@@ -1,63 +1,48 @@
 ---
 id: doc-react17
-title: LAB#1 - React JS / 17. ReactDOM vs React
-sidebar_label: 17. ReactDOM vs React
+title: LAB#1 - React JS / 17. State Continued
+sidebar_label: 17. State Continued
 ---
 
-## DOM - Document Object Model
+## State Continued
 
 
-![alt text](.\assets\React_Imagem8_1.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_1.png)
+![alt text](.\assets\React_Imagem16_1.jpg)
 
 
 ---
+## this.setState
 
+~~~
+import React, { Component } from 'react';
 
+class SearchBar extends Component {
+  constructor(props) {
+    super(props);
 
-![alt text](.\assets\React_Imagem8_2.png)
+    this.state = { term: ''};
+   }
 
+  render() {
+    return (
+      <div>
+        <input onChange={event => this.setState({ term: event.target.value })} />
+        Value of the input: {this.state.term}
+      </div>
+    );
+  }
+}
 
----
-
-## ReactDOM vs React
-
-
-![alt text](.\assets\React_Imagem8_2.jpg)
-
-
----
-
-![alt text](.\assets\React_Imagem8_3.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_4.jpg)
+export default SearchBar;
 
 
 
 ~~~
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-// Create a new component. This component should produce
-// some HTML
-const App = function() {
-  return <div> hi!</div>;
-};
 
-// Take this compoment´s generate HTML and pu it
-// on the page (in the DOM)
-//React.render(App);
-ReactDOM.render(App);
+![alt text](.\assets\React_Imagem17_1.jpg)
 
-~~~
+
+
+![alt text](.\assets\React_Imagem17_2.jpg)
+

@@ -1,63 +1,44 @@
 ---
 id: doc-react19
-title: LAB#1 - React JS / 19. ReactDOM vs React
-sidebar_label: 19. ReactDOM vs React
+title: LAB#1 - React JS / 19. Breather and Review
+sidebar_label: Breather and Review
 ---
 
-## DOM - Document Object Model
-
-
-![alt text](.\assets\React_Imagem8_1.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_1.png)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_2.png)
-
-
----
-
-## ReactDOM vs React
-
-
-![alt text](.\assets\React_Imagem8_2.jpg)
-
-
----
-
-![alt text](.\assets\React_Imagem8_3.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_4.jpg)
-
-
+## index.js
 
 ~~~
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import SearchBar from './components/search_bar';
+
+
+const API_KEY='AIzaSyAuJOy9V3-Bu7tcSgc6sYZG91UMaOeav0Y';
+
 // Create a new component. This component should produce
 // some HTML
-const App = function() {
-  return <div> hi!</div>;
+
+const App = () =>  {
+  return (
+    <div>
+
+      <SearchBar />
+
+    </div>
+  );
+
 };
 
 // Take this compoment´s generate HTML and pu it
 // on the page (in the DOM)
 //React.render(App);
-ReactDOM.render(App);
+ReactDOM.render(<App />, document.querySelector('.container') );
+
 
 ~~~
+
+
+![alt text](.\assets\React_Imagem19_1.jpg)
+
+
+---

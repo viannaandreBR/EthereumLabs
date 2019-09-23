@@ -1,63 +1,58 @@
 ---
 id: doc-react18
-title: LAB#1 - React JS / 18. ReactDOM vs React
-sidebar_label: 18. ReactDOM vs React
+title: LAB#1 - React JS / 18. Controlled Components
+sidebar_label: 18. Controlled Components
 ---
 
-## DOM - Document Object Model
+## Controlled Components
 
 
-![alt text](.\assets\React_Imagem8_1.jpg)
+![alt text](.\assets\React_Imagem18_0.jpg)
 
 
----
+![alt text](.\assets\React_Imagem18_1.jpg)
 
-
-
-![alt text](.\assets\React_Imagem8_1.png)
+![alt text](.\assets\React_Imagem18_2.jpg)
 
 
 ---
+## Starting Value
+
+
+![alt text](.\assets\React_Imagem18_3.jpg)
+
+~~~
+import React, { Component } from 'react';
+
+class SearchBar extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { term: 'Starting Value'};
+   }
+
+  render() {
+    return (
+      <div>
+        <input
+          value={this.state.term}
+          onChange={event => this.setState({ term: event.target.value })}
+
+         />
+
+      </div>
+    );
+  }
+}
+
+export default SearchBar;
 
 
 
-![alt text](.\assets\React_Imagem8_2.png)
 
-
----
-
-## ReactDOM vs React
-
-
-![alt text](.\assets\React_Imagem8_2.jpg)
-
-
----
-
-![alt text](.\assets\React_Imagem8_3.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_4.jpg)
 
 
 
 ~~~
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-// Create a new component. This component should produce
-// some HTML
-const App = function() {
-  return <div> hi!</div>;
-};
 
-// Take this compoment´s generate HTML and pu it
-// on the page (in the DOM)
-//React.render(App);
-ReactDOM.render(App);
-
-~~~

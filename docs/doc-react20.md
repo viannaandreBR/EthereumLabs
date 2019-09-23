@@ -1,63 +1,55 @@
 ---
 id: doc-react20
-title: LAB#1 - React JS / 20. ReactDOM vs React
-sidebar_label: 20. ReactDOM vs React
+title: LAB#1 - React JS / 20. Youtube Search Response
+sidebar_label: 20. Youtube Search Response
 ---
 
-## DOM - Document Object Model
+## Youtube Search Response
 
 
-![alt text](.\assets\React_Imagem8_1.jpg)
+![alt text](.\assets\React_Imagem12_1.png)
 
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_1.png)
+> import YTSearch from 'youtube-api-search'
 
 
 ---
 
+## index.js
 
+~~~
+import React, { Component } from 'react';
 
-![alt text](.\assets\React_Imagem8_2.png)
+class SearchBar extends Component {
+  constructor(props) {
+    super(props);
 
+    this.state = { term: ''};
+   }
 
----
+  render() {
+    return (
+      <div>
+        <input
+          value={this.state.term}
+          onChange={event => this.setState({ term: event.target.value })}
 
-## ReactDOM vs React
+         />
 
+      </div>
+    );
+  }
+}
 
-![alt text](.\assets\React_Imagem8_2.jpg)
-
-
----
-
-![alt text](.\assets\React_Imagem8_3.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_4.jpg)
-
+export default SearchBar;
 
 
 ~~~
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-// Create a new component. This component should produce
-// some HTML
-const App = function() {
-  return <div> hi!</div>;
-};
 
-// Take this compoment´s generate HTML and pu it
-// on the page (in the DOM)
-//React.render(App);
-ReactDOM.render(App);
+![alt text](.\assets\React_Imagem20_1.jpg)
 
-~~~
+
+
+
+
+![alt text](.\assets\React_Imagem20_2.jpg)

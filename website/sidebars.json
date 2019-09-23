@@ -31,7 +31,9 @@
               "doc-react9","doc-react10","doc-react11","doc-react12",
               "doc-react13","doc-react14","doc-react15","doc-react16",
               "doc-react17","doc-react18","doc-react19","doc-react20",
-              "doc-react21","doc-react22","doc-react23","doc-react24"]
+              "doc-react21","doc-react22","doc-react23","doc-react24",
+              "doc-react25","doc-react26","doc-react27","doc-react28",
+              "doc-react29","doc-react30","doc-react31","doc-react32"]
   },
   "docs-other": {
     "First Category": ["exampledoc4", "exampledoc5"]

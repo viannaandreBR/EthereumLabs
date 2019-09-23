@@ -7,57 +7,39 @@ sidebar_label: 16. Introduction to State
 ## Introduction to State
 
 
-![alt text](.\assets\React_Imagem8_1.jpg)
+![alt text](.\assets\React_Imagem16_1.jpg)
+
 
 
 ---
-
-
-
-![alt text](.\assets\React_Imagem8_1.png)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_2.png)
-
-
----
-
-## ReactDOM vs React
-
-
-![alt text](.\assets\React_Imagem8_2.jpg)
-
-
----
-
-![alt text](.\assets\React_Imagem8_3.jpg)
-
-
----
-
-
-
-![alt text](.\assets\React_Imagem8_4.jpg)
-
+## search_bar.js
 
 
 ~~~
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-// Create a new component. This component should produce
-// some HTML
-const App = function() {
-  return <div> hi!</div>;
-};
+import React, { Component } from 'react';
 
-// Take this compoment´s generate HTML and pu it
-// on the page (in the DOM)
-//React.render(App);
-ReactDOM.render(App);
+//const Component = React.Component;
+
+class SearchBar extends Component {
+  constructor(props){
+    super(props);
+
+    this.state = { term: ''};
+    
+  }
+  render() {
+    return <input onChange={(event) => console.log(event.target.value) } />;
+  }
+
+
+
+}
+
+
+export default SearchBar;
 
 ~~~
+
+
+![alt text](.\assets\React_Imagem16_2.jpg)

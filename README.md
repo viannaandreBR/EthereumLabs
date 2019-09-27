@@ -120,12 +120,17 @@ git push origin gh-pages --delete
 >>>> ./node_modules/.bin/gh-pages -d build
 >>>>
 >>>>
-yarn run build
-git add -f website/build/EthereumLabs && git commit -m "Branch gh-pages"
+>>>> Update Docusaurus
+1) yarn run build
 
-git subtree push --prefix website/build/EthereumLabs/ origin gh-pages 
+2) git add -f website/build/EthereumLabs && git commit -m "Branch gh-pages"
 
-git push origin gh-pages --delete
+3) git push origin gh-pages --delete
+
+4) git subtree push --prefix website/build/EthereumLabs/ origin gh-pages 
+
+>>> Help
+>>> http://xszhao.science/blog/Dapp-Lottery-Contract/
 
 
 

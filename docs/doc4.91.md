@@ -8,4 +8,20 @@ sidebar_label: 91. Multiple Web3 Instances
 
 
 
-![alt text](.\assets\Imagem67_1.jpg)
+
+![alt text](.\assets\Imagem91_1.png)
+
+---
+
+
+## Web3.js Install
+
+> yarn add web3
+
+
+---
+
+## Web3 Provider - Integration Metamask and Rinkeby
+
+
+![alt text](.\assets\Imagem91_1.jpg)

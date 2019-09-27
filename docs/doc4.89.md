@@ -8,4 +8,20 @@ sidebar_label: 89. Application Overview
 
 
 
-![alt text](.\assets\Imagem67_1.jpg)
+![alt text](.\assets\Imagem89_1.jpg)
+
+> npm install -g create-react-app
+
+
+
+![alt text](.\assets\Imagem89_2.jpg)
+
+---
+
+## create-react-app
+
+> create-react-app lottery-react
+
+
+
+![alt text](.\assets\Imagem89_3.jpg)

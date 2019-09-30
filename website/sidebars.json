@@ -20,7 +20,12 @@
               "doc4.91","doc4.92","doc4.93","doc4.94","doc4.95","doc4.96",
               "doc4.97","doc4.98","doc4.99","doc4.100","doc4.101","doc4.102",
               "doc4.103"],
-    "Lab#5 - Real Projects with Ethreum": ["doc5"],
+    "Lab#5 - Real Projects with Ethreum": ["doc5.104","doc5.105","doc5.106",
+              "doc5.107","doc5.108","doc5.109","doc5.110","doc5.111","doc5.112",
+              "doc5.113","doc5.114","doc5.115","doc5.116","doc5.117","doc5.118",
+              "doc5.119","doc5.120","doc5.121","doc5.122","doc5.123","doc5.124",
+              "doc5.125","doc5.126","doc5.127","doc5.128","doc5.129","doc5.130",
+              "doc5.131"],
     "Lab#6 - Ethereum Project Infrastructure": ["doc6"],
     "Lab#7 - Advanced Multi-Page Front-Ends": ["doc7"],
     "Lab#8 - Appendix Basic React": ["doc8"]
